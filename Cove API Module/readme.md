@@ -48,7 +48,7 @@ v1.0 - Initial Commit
 ### Future Development
 
 Add additional function available through the API that are not documented including recovery testing<br />
-Add Office 365 to billing report<br />
-<s>Add monitoring options</s><br />
+<s>Add Office 365 to billing report</s><br />
+Add monitoring options<br />
 Add filtering to List actions
 Add monitoring options<br />
