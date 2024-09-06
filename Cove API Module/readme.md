@@ -47,4 +47,3 @@ v1.0 - Initial Commit
 Add additional function available through the API that are not documented including recovery testing<br />
 Add Office 365 to billing report<br />
 Add monitoring options<br />
-Add filtering to List actions
