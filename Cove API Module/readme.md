@@ -1,5 +1,5 @@
 ## Requirements
-
+Cove API User with Supporter or higher permisisons. (Administrator or higher is required for Add User)<br />
 Core integration included by default<br />
 Org Variables at the top level organization<br />
 cove_partner (This is the Customer ID for your Reseller customer level)<br />
@@ -51,3 +51,4 @@ Add additional function available through the API that are not documented includ
 Add Office 365 to billing report<br />
 <s>Add monitoring options</s><br />
 Add filtering to List actions
+Add monitoring options<br />
