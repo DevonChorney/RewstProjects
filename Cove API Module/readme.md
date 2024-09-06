@@ -40,11 +40,14 @@ For Security purposes edit the Cove Backup - Auth workflow and redact the body o
 
 ### Changelog
 
+v1.1 -  Bug Fixes
+		Added Office 365 to billing report
+
 v1.0 - Initial Commit
 
 ### Future Development
 
 Add additional function available through the API that are not documented including recovery testing<br />
 Add Office 365 to billing report<br />
-Add monitoring options<br />
+<s>Add monitoring options</s><br />
 Add filtering to List actions
