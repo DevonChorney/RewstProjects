@@ -1,5 +1,5 @@
 ## Requirements
-
+Cove API User with Supporter or higher permisisons. (Administrator or higher is required for Add User)
 Core integration included by default<br />
 Org Variables at the top level organization<br />
 cove_partner (This is the Customer ID for your Reseller customer level)<br />
