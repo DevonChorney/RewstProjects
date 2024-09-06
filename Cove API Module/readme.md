@@ -16,7 +16,7 @@ Cove Backup - List Devices - Returns an unfiltered list of devices
 Cove Backup - Get Customer - Returns a specific customer
 Cove Backup - List Customers - Returns an unfiltered list of customers
 Cove Backup - List Stale Audit - Returns a list of devices that have not completed a backup in X days. 90 days is the default.
-Cove Backup - Billing Report - Returns a report of devices following 2 differnt billing models. The legacy output for when you are billed in Servers and Workstations only. The DPP model is the newer Cove Data Protection Plan where you are billed for Physicical servers, Virtual servers, and Workstations.
+Cove Backup - Billing Report - Returns a report of devices following 2 different billing models. The legacy output for when you are billed in Servers and Workstations only. The DPP model is the newer Cove Data Protection Plan where you are billed for Physicical servers, Virtual servers, and Workstations.
 
 
 ## How do I use this workflow?
@@ -35,4 +35,16 @@ All actions are designed to be used as subworkflows.
 
 ### Dragons
 
-Failures will appear to pass but will contain error information within the standard output. 
+Failures will appear to pass but will contain error information within the standard output.
+For Security purposes edit the Cove Backup - Auth workflow and redact the body of the Cove_Auth action to prevent leaking your API key.
+
+### Changelog
+
+v1.0 - Initial Commit
+
+### Future Development
+
+Add additional function available through the API that are not documented including recovery testing
+Add Office 365 to billing report
+Add monitoring options
+Add filtering to List actions
